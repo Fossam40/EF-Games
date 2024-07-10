@@ -1,0 +1,3 @@
+The objective of this project is to find efficient heuristics to calculate the number of rounds in Ehrenfeucht-Fraïssé games on graphs (https://en.wikipedia.org/wiki/Ehrenfeucht%E2%80%93Fra%C3%AFss%C3%A9_game).
+- genGraphs.c generates a random database of non-oriented connected graphs. Its arguments are the number of graphs, the maximum number of vertex and the number % of the folder where the graphs will be created (a folder named graphs% must be created beforehand)
+- EFheuristics.c contains an implementation of minmax, alphabeta, as well as an heuristic based on finding a dominating set and a branch and bound approach.
